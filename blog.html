@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Blog Spot</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='blogstyle.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+</head>
+    <body>
+        <header>
+            <h1>The Blog Spot</h1>
+            </header>
+            <nav class="navbar">
+                <a href="#" id="menu"  onclick="document.getElementById('hoo').style.display='block'"><i class="fa fa-bars" aria-hidden="true" id="bar"></i></a>
+                <a href="#" id="x" onclick="document.getElementById('hoo').style.display='none'"><i class="fa fa-times" aria-hidden="true" id="close"></i></a>
+                 
+                <ul  id="hoo">
+                    <li><a href="start.html">HOME</a></li>  
+                    <li><a href="#works">WORKS</a></li>
+                   <li><a href="#v1">TRIPS</a></li>
+                    <li><a href="casual.html">VILLAGE</a></li>
+                    <li><a href="#c1">COLLEGE</a></li>
+                </ul>
+            </nav>
+            <div id="intro">
+            <marquee>Hello Everyone...</marquee>
+            <p>Welcome to the Blog Spot.<br>Here are some activities, some pictures of places where I have been too,<br>some trip clips and much more</p>
+            <button id="button" onclick="document.getElementById('button').innerHTML= Date()">Let's Take off </button>
+            </div>
+    <main>
+        <div id="work">
+            <h2 id="works">MY WORKS</h2>
+            <img id="w1" src="jayaoo/jposter.jpeg" />
+            <img id="w2" src="jayaoo/jposter2.jpeg" />
+            <img id="w3" src="jayaoo/jposter3.jpeg" />
+            <img id="w4" src="jayaoo/jposter4.jpeg" />
+        </div>
+
+        <div id="trip">
+            <h2 id="trips">MY TRIPS</h2>
+            <video id="v1" src="jayaoo/jwaterfall.mp4" controls></video>
+            <video id="v2" src="jayaoo/jnitrr.mp4" controls></video>
+            <video id="v3" src="jayaoo/jbeach.mp4" controls></video>
+        </div>
+
+        <div id="village">
+            <h2 id="villages"> MY VILLAGE</h2>
+            <img id="i1" src="jayaoo/jhouse1.jpeg" />
+            <img id="i2" src="jayaoo/jhouse2.jpeg" />
+            <img id="i3" src="jayaoo/jhouse3.jpeg" />
+            <img id="i4" src="jayaoo/jhouse4.jpeg" />
+    
+            <img id="i5" src="jayaoo/jhouse5.jpeg" />
+    
+            <img id="i6" src="jayaoo/jhouse6.jpeg" />
+    
+        
+        </div >
+        
+        <div id="college">
+            <h2 id="colleges">COLLEGE, HOSTEL & FOOD </h2>
+            <img id="c1" src="jayaoo/jnitrr.jpeg" />
+            <img id="c2" src="jayaoo/jhostel.jpeg" />
+            <img id="c3" src="jayaoo/jhostel2.jpeg"/>
+            <img id="c4" src="jayaoo/jhostel3.jpeg"/>
+            <img id="c5" src="jayaoo/jhostel4.jpeg"/>
+            <img id="c6" src="jayaoo/jfood.jpeg" />
+            <img id="c7" src="jayaoo/jfood2.jpeg" />
+            <img id="c8" src="jayaoo/jcanteen.jpeg" />
+
+        </div>
+
+        
+
+    </main>
+    <footer>Made with <i class="fa fa-heart" style="color:red;" aria-hidden="true"></i> by Jaya</footer>
+    </body>
+</html>
