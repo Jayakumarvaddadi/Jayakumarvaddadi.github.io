@@ -15,6 +15,16 @@ function myfunction() {
         moretext.style.display="inline";
     }
 }
+function menu(){
+        
+        var a= document.getElementById('hoo');
+        if(a.style.display==="block"){
+            a.style.display="none";
+        }
+        else{
+            a.style.display="block";
+        }
+    }
 function me(){
     var x= document.getElementById('hoo');
     x.style.display="block";
