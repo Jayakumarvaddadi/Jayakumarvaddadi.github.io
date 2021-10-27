@@ -41,5 +41,14 @@ function me(){
         setTimeout(write,50);
         }
     }
+function h(){
+        var c=document.getElementById('button');
+        if(c.innerHTML===Date()){
+            c.innerHTML="Lets Take off";
+        }
+        else{
+        c.innerHTML=Date();
+        }
+    }
     
     
