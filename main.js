@@ -50,5 +50,13 @@ function h(){
         c.innerHTML=Date();
         }
     }
+ function j(){
+        var v=document.getElementById('hoo')
+        if( v.style.display==='block'){
+            v.style.display="none";
+        }
+        else
+        v.style.display='block';
+    }
     
     
