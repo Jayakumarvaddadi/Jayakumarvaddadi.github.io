@@ -79,14 +79,14 @@ ul li  :hover{
 #w1, #w3, #i1, #i3, #i5, #c1, #c3, #c5, #c7{
     float:left;
     width:50%;
-    height: 600px;
+    height: 500px;
     padding: 5px;
     
 }
 #w2, #w4,#i2, #i4, #i6, #c2, #c4, #c6, #c8{
     float:right;
     width:50%;
-    height: 600px;
+    height: 500px;
     padding: 5px;
     
 }
