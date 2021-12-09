@@ -11,6 +11,9 @@
     
         
 }
+#cv a{
+    text-decoration: none;
+}
 
 ul li{
     display:inline;
