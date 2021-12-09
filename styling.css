@@ -14,6 +14,9 @@
 #cv a{
     text-decoration: none;
 }
+#cv{
+    padding:10px;
+    margin: 10px;
 
 ul li{
     display:inline;
