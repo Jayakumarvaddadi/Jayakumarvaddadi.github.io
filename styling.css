@@ -1,7 +1,7 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
     font-weight: 600;
@@ -14,10 +14,7 @@
 #cv a{
     text-decoration: none;
 }
-#cv{
-    padding:10px;
-    margin: 10px;
-} 
+
 ul li{
     display:inline;
     padding: 5px;
@@ -29,8 +26,8 @@ ul li{
 .navbar{
     background-color: black;
     padding:25px;
-    
 }
+
 ul li a{
     text-decoration: none;
     color: white;
@@ -60,10 +57,14 @@ ul li  :hover{
 }
 
 .intro{
-    background-image: url(jayaoo/clock.jpg);
-    background-size: 100% 100%;
-    height: 700px;
     
+height: 100vh;
+background-image: url(jayaoo/oceanbg.jpg);
+background-size: 100% 100%;
+background-position: center;
+position: relative;
+overflow: hidden;
+
     
 }
 #mybtn{
@@ -78,12 +79,16 @@ ul li  :hover{
     padding:0;
     margin:0;
 }
+h3{
+    color:hotpink;
+}
 
 
 
 
 #quote{
     height: 150px;
+    color: white;
 }
 .button1{
     margin-bottom:20px;
@@ -102,7 +107,7 @@ h3{
     text-decoration:underline;
 }
 h4{
-    color: gray;
+    color: grey;
 }
 img{
     height:150px;
@@ -188,7 +193,76 @@ img{
     
     
 }
+#cv{
+    padding:10px;
+    margin: 10px;
+    
+}
 footer{
     padding-top:0px;
     background-color: turquoise;
 }
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-100px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+ animation-delay: 2s;
+ height:90px;
+ width:90px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+    height:65px;
+    width:65px;
+   }
+   .bubbles img:nth-child(3){
+    animation-delay: 3s;
+    height:70px;
+    width:70px;
+   }
+   .bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    height:55px;
+   }
+   .bubbles img:nth-child(5){
+    animation-delay: 3s;
+    height:40px;
+    width:40px;
+   }
+   .bubbles img:nth-child(6){
+    animation-delay: 6s;
+    height:80px;
+    width:80px;
+   }
+   .bubbles img:nth-child(7){
+    animation-delay: 7s;
+    height:55px;
+    width:55px;
+   }
