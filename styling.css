@@ -140,17 +140,25 @@ img{
     width: 70%;
     height:400px;
 }
-#sk,#re{
+#sk{
     float: left;
     width: 30%;
     height:230px;
 }
-#qp,#tp{
+#qp{
     float: right;
     width: 70%;
     height:230px;
 }
-
+#re{
+    float: left;
+    width: 30%;
+    height:260px; 
+}
+#tp{
+     float: right;
+    width: 70%;
+    height:260px;}
 
 
 #wo{
