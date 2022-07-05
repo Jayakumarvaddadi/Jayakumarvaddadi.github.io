@@ -143,12 +143,12 @@ img{
 #sk,#re{
     float: left;
     width: 30%;
-    height:220px;
+    height:230px;
 }
 #qp,#tp{
     float: right;
     width: 70%;
-    height:220px;
+    height:230px;
 }
 
 
@@ -156,22 +156,22 @@ img{
 #wo{
     float: left;
     width: 30%;
-    height:180px;
+    height:200px;
 }
 #ep{
     float: right;
     width: 70%;
-    height:180px;
+    height:200px;
 }
 #pr{
     float: left;
     width: 30%;
-    height:230px;
+    height:260px;
 }
 #rp{
     float: right;
     width: 70%;
-    height:230px;
+    height:260px;
 }
 #la{
     float: left;
