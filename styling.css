@@ -153,12 +153,12 @@ img{
 #re{
     float: left;
     width: 30%;
-    height:260px; 
+    height:300px; 
 }
 #tp{
      float: right;
     width: 70%;
-    height:260px;}
+    height:300px;}
 
 
 #wo{
@@ -174,12 +174,12 @@ img{
 #pr{
     float: left;
     width: 30%;
-    height:290px;
+    height:300px;
 }
 #rp{
     float: right;
     width: 70%;
-    height:290px;
+    height:300px;
 }
 #la{
     float: left;
